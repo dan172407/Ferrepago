@@ -1,0 +1,75 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Bonita</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdf8f2;
+    }
+    header {
+      background-color: #691B31;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .producto {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      margin: 15px;
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .producto img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .producto h3 {
+      color: #691B31;
+    }
+    .producto p {
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda de Cemento</h1>
+  </header>
+
+  <div class="contenedor">
+    <div class="producto">
+      <img src="https://via.placeholder.com/250x150?text=Cemento+Gris" alt="Cemento Gris">
+      <h3>Cemento Gris</h3>
+      <p>$120 MXN</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/250x150?text=Cemento+Blanco" alt="Cemento Blanco">
+      <h3>Cemento Blanco</h3>
+      <p>$140 MXN</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/250x150?text=Cemento+Impermeable" alt="Cemento Impermeable">
+      <h3>Cemento Impermeable</h3>
+      <p>$160 MXN</p>
+    </div>
+  </div>
+</body>
+</html>
